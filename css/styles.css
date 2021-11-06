@@ -9,12 +9,12 @@
     }
   }
     
-.about {background-color: burlywood;}
-.early {background-color: cadetblue;}
-.football {background-color: cornflowerblue;}
-.army {background-color: darkgrey;}
-.legacy {background-color: darksalmon;}
-.memorials {background-color: darkseagreen;}
+.about {background-color: rgb(238, 226, 210);}
+.early {background-color: rgb(175, 203, 204);}
+.football {background-color: rgb(208, 215, 230);}
+.army {background-color: rgb(221, 210, 210);}
+.legacy {background-color: rgb(236, 223, 219);}
+.memorials {background-color: rgb(200, 219, 200);}
 
 
 

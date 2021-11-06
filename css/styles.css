@@ -8,17 +8,27 @@
       grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     }
   }
-    
-.about {background-color: rgb(238, 226, 210);}
+ 
+  section {
+    border-radius: 15%;
+  padding: 1em;
+  }
+.about {background-color: rgb(238, 226, 210);
+text-align: center;}
 .early {background-color: rgb(175, 203, 204);}
 .football {background-color: rgb(208, 215, 230);}
 .army {background-color: rgb(221, 210, 210);}
 .legacy {background-color: rgb(236, 223, 219);}
 .memorials {background-color: rgb(200, 219, 200);}
 
+img{display: none}
+#top {max-width: 200px;
+display: block;
+margin: auto ;
+padding: 10% 0;}
 
 
-  /*section {border-left-style: solid;
+/*section {border-left-style: solid;
     }
 
     #top, #top0, #top1, #top2, #top3 {
@@ -28,4 +38,4 @@
     #top, #top0, #bottom1, #bottom2, #bottom3 {
         border-bottom-style: solid;
     }*/
-  img {display: none;}
+ 

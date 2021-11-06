@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  @supports (width: min(250px, 100%)) {
+    .grid {
+      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    }
+  }
+    
+.about {background-color: burlywood;}
+.early {background-color: cadetblue;}
+.football {background-color: cornflowerblue;}
+.army {background-color: darkgrey;}
+.legacy {background-color: darksalmon;}
+.memorials {background-color: darkseagreen;}
+
+
+
+  /*section {border-left-style: solid;
+    }
+
+    #top, #top0, #top1, #top2, #top3 {
+        border-top-style: solid;
+    }
+
+    #top, #top0, #bottom1, #bottom2, #bottom3 {
+        border-bottom-style: solid;
+    }*/
+  img {display: none;}

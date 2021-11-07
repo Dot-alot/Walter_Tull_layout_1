@@ -1,3 +1,6 @@
+* {padding: 0;
+margin: 0}
+
 .grid {
     display: grid;
     grid-gap: 1rem;
@@ -8,13 +11,43 @@
       grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     }
   }
- 
+ body{background-color: rgb(113, 83, 133);}
+
+header {background-color: rgb(172, 66, 89);
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    z-index:300;
+    color: ivory;
+}
+
+nav ul li{ float: left;
+
+padding: 1em;
+
+list-style-type:none;}
+
+a {color: #fff4f9;
+  font-family: 'Red Hat Mono', monospace;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1em;
+  
+}
+
+
+span{ display: block;
+margin-bottom: 1em;}
+
   section {
     border-radius: 15%;
   padding: 1em;
+  font-family: Noto Sans;
+  overflow: hidden;
   }
-.about {background-color: rgb(238, 226, 210);
-text-align: center;}
+.about {background-color: rgb(187, 149, 218);}
 .early {background-color: rgb(175, 203, 204);}
 .football {background-color: rgb(208, 215, 230);}
 .army {background-color: rgb(221, 210, 210);}
@@ -22,10 +55,42 @@ text-align: center;}
 .memorials {background-color: rgb(200, 219, 200);}
 
 img{display: none}
+
+.early li{
+  margin-left: 1em;
+}
+
+h1, h2 , h3{text-align: center;
+margin-bottom: 1em;
+font-family: 'Red Hat Mono', monospace;
+font-weight: 600;
+font-style: normal;}
+
+.about p, .early p {text-align: center;}
+
+.football img , .army img , .legacy img, .memorials img{max-width: 200px;
+  display: block;
+  margin: auto ;
+  padding: 10% 0;
+border-radius: 15%;
+filter: grayscale(100%)
+
+}
+
 #top {max-width: 200px;
 display: block;
 margin: auto ;
 padding: 10% 0;}
+
+#top0{max-width: 200px;
+  display: block;
+  margin: auto ;
+  padding: 10% 0;
+border-radius: 15%;
+filter: grayscale(100%)
+}
+
+.
 
 
 /*section {border-left-style: solid;

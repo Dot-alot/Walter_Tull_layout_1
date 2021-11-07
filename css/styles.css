@@ -76,7 +76,11 @@ border-radius: 15%;
 filter: grayscale(100%)
 
 }
+ @media screen and (min-width: 1314px){ #media
+ { display:none;}
+ }
 
+ 
 #top {max-width: 200px;
 display: block;
 margin: auto ;

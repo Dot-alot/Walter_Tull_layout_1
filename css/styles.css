@@ -23,11 +23,11 @@ header {background-color: rgb(172, 66, 89);
     color: ivory;
 }
 
-nav ul li{ float: left;
-
-padding: 1em;
-
-list-style-type:none;}
+nav ul li
+{ float: left;
+  padding: 1em;
+  list-style-type:none;
+}
 
 a {color: #fff4f9;
   font-family: 'Red Hat Mono', monospace;
@@ -94,17 +94,4 @@ border-radius: 15%;
 filter: grayscale(100%)
 }
 
-.
-
-
-/*section {border-left-style: solid;
-    }
-
-    #top, #top0, #top1, #top2, #top3 {
-        border-top-style: solid;
-    }
-
-    #top, #top0, #bottom1, #bottom2, #bottom3 {
-        border-bottom-style: solid;
-    }*/
  
